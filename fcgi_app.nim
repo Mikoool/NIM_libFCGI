@@ -1,4 +1,4 @@
-import os, fcgi_lib, locks
+import fcgi_lib, locks
 
 var 
     thr: array[20, Thread[void]]
